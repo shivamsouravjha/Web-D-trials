@@ -1,0 +1,19 @@
+{
+  "name": "tf-droid",
+  "version": "1.0.0",
+  "description": "package",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivamsouravjha/Web-D-trials.git"
+  },
+  "author": "Shivam Sourav Jha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shivamsouravjha/Web-D-trials/issues"
+  },
+  "homepage": "https://github.com/shivamsouravjha/Web-D-trials#readme"
+}
