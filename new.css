@@ -1,0 +1,25 @@
+a:hover{
+background-color:#FAEBD7;
+font-weight:bold;
+}
+a:link{
+color:blue;
+font-size:20px;
+font-weight:bold;
+
+}
+a:visted{
+color:purple;}
+#demo{
+	color:black;
+	background-color:#C0C0C0;
+	font-size:40px;
+	
+}
+h1{
+	text-decoration:underline;
+	font-weight:bold;
+}
+#bg{
+	background-color: #D1EDF2;
+}
