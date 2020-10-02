@@ -9,6 +9,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <LINK REL="Stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" href="new.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -23,7 +24,7 @@
             <div class="container">
                 <div class ="row">
                     <div >
-                    <h1>Ristorante con Fusion</h1>
+                    <center><h1>Ristorante con Fusion</h1></center>
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
                 </div>
                  <div ></div>
@@ -67,7 +68,21 @@
             </div>
         </div>
     </div>
-
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+     <script>
+     window.onscroll = function() {scrollFunction()};
+     function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+    function topFunction() {
+       document.body.scrollTop = 0; // For Safari
+       document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+     }
+</script>
     <footer>
         <div class="container">
             <div class="row">             
